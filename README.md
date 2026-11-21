@@ -46,17 +46,7 @@ dotnet run --project FlappyBird/FlappyBird.csproj
 - **Yeniden Başlatma:** Oyun herhangi bir anda **`R`** kısayol tuşu veya ekrandaki **"Yeni Oyun (R)"** butonu ile sıfırlanabilir.
 - **Titremesiz Arayüz ve Odak Yönetimi:** Form üzerinde `DoubleBuffered = true` ve `KeyPreview = true` aktif edilmiş, buton `TabStop = false` yapılarak `SPACE` tuşunun butonu tetiklemesi engellenmiştir.
 
----
 
-## Ekran Görüntüleri
-
-### Oyun Oynanırken
-![Oyun Oynanırken](docs/screenshots/gameplay.png)
-
-### Oyun Bitti (Game Over) Ekranı
-![Game Over Ekranı](docs/screenshots/gameover.png)
-
----
 
 ## Görseller ve Kaynaklar
 
