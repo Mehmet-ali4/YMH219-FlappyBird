@@ -1,0 +1,99 @@
+## Visual Studio / .NET için .gitignore
+## (github/gitignore VisualStudio.gitignore şablonunun sadeleştirilmiş hali)
+
+# Visual Studio çalışma klasörü
+.vs/
+
+# Derleme çıktıları
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+
+# Kullanıcıya özel dosyalar
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+launchSettings.json
+
+# Visual Studio geçici / önbellek dosyaları
+*.cache
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.pdb
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.log
+*.vspx
+*.sap
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Test sonuçları
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# Yayınlama (publish) çıktıları
+publish/
+*.[Pp]ublish.xml
+*.pubxml
+*.azurePubxml
+
+# ReSharper / Rider / VS Code
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+.vscode/
+
+# İşletim sistemi dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Oyunun çalışırken oluşturduğu skor dosyası
+highscore.txt
